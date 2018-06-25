@@ -1,0 +1,5 @@
+---
+base_postgres_user: testuser
+base_postgres_pass: testpass
+base_postgres_mip: 
+base_postgres_net: 
