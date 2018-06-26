@@ -12,4 +12,6 @@ Before apply playbook
 
 `chmod og-wx ~/.ssh/authorized_keys`
 
+Play 
+
 `ansible-playbook -i inventory.ini playbook.yml`
