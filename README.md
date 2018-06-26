@@ -7,7 +7,9 @@
 Before apply playbook
 
 `ssh-keygen -t rsa`
+
 `cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
+
 `chmod og-wx ~/.ssh/authorized_keys`
 
 `ansible-playbook -i inventory.ini playbook.yml`
